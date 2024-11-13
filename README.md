@@ -25,7 +25,7 @@ The pharmacy module of this virtual hospital system is designed to:
 
 ```plaintext
 ├── data/
-│   └── controlled_substances_list.txt      # List of controlled substances
+│   └── controlled_substances_list.json      # List of controlled substances
 │   └── medications_info.json               # Dictionary of approved medications with dosages and prices
 │   └── sample_patient_data.csv             # Sample CSV file with patient data
 ├── scripts/
