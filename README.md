@@ -44,7 +44,7 @@ The pharmacy module of this virtual hospital system is designed to:
 ## Dependencies
 
 - Python 3.x
-- Pandas (for CSV file handling)
+- CSV module (for handling CSV files)
 - JSON (for loading medication and dosage information)
 
 ## Future Enhancements
