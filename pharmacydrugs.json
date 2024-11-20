@@ -1,0 +1,74 @@
+{
+  "Red-eye": {
+    "Eye lubricant drops": {
+      "dosage": "1-2 drops in the affected eye(s) as needed",
+      "quantity_left": 30
+    },
+    "Decongestant eye drops": {
+      "dosage": "1-2 drops up to 4 times daily",
+      "quantity_left": 15
+    },
+    "Antihistamine eye drops": {
+      "dosage": "1 drop in each eye twice daily (every 8-12 hours)",
+      "quantity_left": 25
+    },
+    "Steroid eye drops": {
+      "dosage": "1-2 drops 2-4 times daily, taper as directed by a doctor",
+      "quantity_left": 10
+    },
+    "Antibiotic eye drops": {
+      "dosage": "1 drop every 2-4 hours, as prescribed",
+      "quantity_left": 12
+    }
+  },
+  "Myopia": {
+    "Dual-focus contact lenses": {
+      "dosage": "As prescribed by an optometrist",
+      "quantity_left": 6
+    },
+    "Pirenzepine": {
+      "dosage": "2% gel applied twice daily",
+      "quantity_left": 8
+    },
+    "7-Methylxanthine (7-MX)": {
+      "dosage": "400-600 mg orally daily",
+      "quantity_left": 30
+    },
+    "Atropine eye drops": {
+      "dosage": "0.01% once daily, typically in the evening",
+      "quantity_left": 20
+    }
+  },
+  "Long-Sightedness": {
+    "+20.00 glasses": {
+      "dosage": "As needed for vision correction",
+      "quantity_left": 1
+    },
+    "Vuity (pilocarpine hydrochloride)": {
+      "dosage": "1 drop in each eye once daily",
+      "quantity_left": 15
+    },
+    "Qlosi (pilocarpine hydrochloride)": {
+      "dosage": "1 drop in each eye once daily",
+      "quantity_left": 10
+    }
+  },
+  "Dry Eye": {
+    "Cyclosporine (Restasis)": {
+      "dosage": "1 drop in each eye twice daily, 12 hours apart",
+      "quantity_left": 30
+    },
+    "Lifitegrast (Xiidra)": {
+      "dosage": "1 drop in each eye twice daily, 12 hours apart",
+      "quantity_left": 20
+    },
+    "Tryvaya (Oyster Point)": {
+      "dosage": "1 spray in each nostril twice daily",
+      "quantity_left": 25
+    },
+    "Eysuvis": {
+      "dosage": "1-2 drops in each eye 4 times daily for up to 2 weeks",
+      "quantity_left": 5
+    }
+  }
+}
