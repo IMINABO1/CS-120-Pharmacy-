@@ -2,73 +2,89 @@
   "Red-eye": {
     "Eye lubricant drops": {
       "dosage": "1-2 drops in the affected eye(s) as needed",
-      "quantity_left": 30
+      "quantity_left": 30,
+      "price_per_unit": 10.99
     },
     "Decongestant eye drops": {
       "dosage": "1-2 drops up to 4 times daily",
-      "quantity_left": 15
+      "quantity_left": 15,
+      "price_per_unit": 12.49
     },
     "Antihistamine eye drops": {
       "dosage": "1 drop in each eye twice daily (every 8-12 hours)",
-      "quantity_left": 25
+      "quantity_left": 25,
+      "price_per_unit": 15.75
     },
     "Steroid eye drops": {
       "dosage": "1-2 drops 2-4 times daily, taper as directed by a doctor",
-      "quantity_left": 10
+      "quantity_left": 10,
+      "price_per_unit": 25.00
     },
     "Antibiotic eye drops": {
       "dosage": "1 drop every 2-4 hours, as prescribed",
-      "quantity_left": 12
+      "quantity_left": 12,
+      "price_per_unit": 18.99
     }
   },
   "Myopia": {
     "Dual-focus contact lenses": {
       "dosage": "As prescribed by an optometrist",
-      "quantity_left": 6
+      "quantity_left": 6,
+      "price_per_unit": 35.00
     },
     "Pirenzepine": {
       "dosage": "2% gel applied twice daily",
-      "quantity_left": 8
+      "quantity_left": 8,
+      "price_per_unit": 45.50
     },
     "7-Methylxanthine (7-MX)": {
       "dosage": "400-600 mg orally daily",
-      "quantity_left": 30
+      "quantity_left": 30,
+      "price_per_unit": 22.00
     },
     "Atropine eye drops": {
       "dosage": "0.01% once daily, typically in the evening",
-      "quantity_left": 20
+      "quantity_left": 20,
+      "price_per_unit": 19.99
     }
   },
   "Long-Sightedness": {
     "+20.00 glasses": {
       "dosage": "As needed for vision correction",
-      "quantity_left": 1
+      "quantity_left": 1,
+      "price_per_unit": 150.00
     },
     "Vuity (pilocarpine hydrochloride)": {
       "dosage": "1 drop in each eye once daily",
-      "quantity_left": 15
+      "quantity_left": 15,
+      "price_per_unit": 45.00
     },
     "Qlosi (pilocarpine hydrochloride)": {
       "dosage": "1 drop in each eye once daily",
-      "quantity_left": 10
+      "quantity_left": 10,
+      "price_per_unit": 40.00
     }
   },
   "Dry Eye": {
     "Cyclosporine (Restasis)": {
       "dosage": "1 drop in each eye twice daily, 12 hours apart",
-      "quantity_left": 30
+      "quantity_left": 30,
+      "price_per_unit": 65.00
     },
     "Lifitegrast (Xiidra)": {
       "dosage": "1 drop in each eye twice daily, 12 hours apart",
-      "quantity_left": 20
+      "quantity_left": 20,
+      "price_per_unit": 58.00
     },
     "Tryvaya (Oyster Point)": {
       "dosage": "1 spray in each nostril twice daily",
-      "quantity_left": 25
+      "quantity_left": 25,
+      "price_per_unit": 49.99
     },
     "Eysuvis": {
       "dosage": "1-2 drops in each eye 4 times daily for up to 2 weeks",
-      "quantity_left": 5
+      "quantity_left": 5,
+      "price_per_unit": 30.00
     }
   }
 }
