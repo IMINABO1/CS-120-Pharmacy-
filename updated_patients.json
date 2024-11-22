@@ -1,0 +1,9 @@
+{
+    "P12345": {
+        "Diagnosis": "Glaucoma",
+        "ICD_code": "65146464",
+        "Drug": null,
+        "Dosage": null,
+        "Frequency": "Morning and Evening"
+    }
+}

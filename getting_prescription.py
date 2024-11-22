@@ -1,10 +1,6 @@
 import csv
 import json
-
-
-import csv
-import json
-
+from control_drugs import control_drugs, narcotics
 
 def load_csv_data(file_path):
     """Load data from a CSV file and return it as a dictionary."""
@@ -23,6 +19,16 @@ def load_json_data(file_path):
     """Load data from a JSON file."""
     with open(file_path, "r") as file:
         return json.load(file)
+
+def check_control(diagnosis):
+    if diagnosis in control_drugs:
+        return True
+    return False
+
+def check_narcotics(diagnosis):
+    if diagnosis in narcotics:
+        return True
+    return False
 
 
 def find_alternative_drug(drugs, diagnosis, current_drug):
@@ -55,7 +61,7 @@ def update_patient_info(patient, drugs_data):
 
     if diagnosis in drugs_data:
         for drug, details in drugs_data[diagnosis].items():
-            if drug == current_drug:
+            if drug == current_drug and not check_control(drug) and not check_narcotics(drug):
                 if details["quantity_left"] > 0:
                     updated_info["Drug"] = drug
                     updated_info["Dosage"] = details["dosage"]
