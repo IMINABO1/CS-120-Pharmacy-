@@ -1,2 +1,5 @@
+rm .gitignore
+touch .gitignore
 pharm/
-.env
+.vscode/
+d.pdf
