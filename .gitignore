@@ -3,4 +3,5 @@ touch .gitignore
 pharm/
 .vscode/
 d.pdf
+.env
 __pycache__/
