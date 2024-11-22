@@ -1,0 +1,6 @@
+Doctor_ID,Name,Specialization,License_Number,Active_Status
+D001,Dr. Emily Carter,Optometrist,DOC987654,Active
+D002,Dr. Susan Lee,Cardiologist,L67890,Inactive
+D003,Dr. Ahmed Khan,General Practitioner,L54321,Active
+D004,Dr. Emily Chen,Dermatologist,L98765,Active
+D005,Dr. Peter Smith,Orthopedist,L24680,Inactive
