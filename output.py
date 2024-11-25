@@ -1,6 +1,5 @@
 import json
 
-# Superclass
 class PatientDataHandler:
     def __init__(self, data):
         self.data = data
@@ -8,7 +7,7 @@ class PatientDataHandler:
     def get_patient_data(self):
         raise NotImplementedError("Subclasses must implement this method")
 
-# Subclass for client team
+
 class ClientTeamHandler(PatientDataHandler):
     def get_patient_data(self):
         result = {}
@@ -21,7 +20,6 @@ class ClientTeamHandler(PatientDataHandler):
             }
         return result
 
-# Subclass for billing team
 class BillingTeamHandler(PatientDataHandler):
     def get_patient_data(self):
         result = {}

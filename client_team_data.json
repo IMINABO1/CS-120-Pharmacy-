@@ -1,0 +1,20 @@
+{
+    "P12345": {
+        "Diagnosis": "Red-eye",
+        "Drug": "Eye lubricant drops",
+        "Dosage Frequency": "1-2 drops in the affected eye(s) as needed | Nighttime",
+        "Cost": 10.99
+    },
+    "P12346": {
+        "Diagnosis": "Myopia",
+        "Drug": "Dual-focus contact lenses",
+        "Dosage Frequency": "As prescribed by an optometrist | Morning and Evening",
+        "Cost": 35.0
+    },
+    "P12347": {
+        "Diagnosis": "Long-Sightedness",
+        "Drug": "Vuity (pilocarpine hydrochloride)",
+        "Dosage Frequency": "1 drop in each eye once daily | Morning and Evening",
+        "Cost": 45.0
+    }
+}
