@@ -23,16 +23,24 @@ The pharmacy module of this virtual hospital system is designed to:
 
 ## File Structure
 
+## File Structure
+
 ```plaintext
-├── data/
-│   └── controlled_substances_list.txt      # List of controlled substances
-│   └── medications_info.json               # Dictionary of approved medications with dosages and prices
-│   └── sample_patient_data.csv             # Sample CSV file with patient data
-├── scripts/
-│   └── pharmacy_module.py                  # Main script for processing prescriptions
-├── README.md                               # Project documentation
-
-
+CS-120-PHARMACY/
+├── control_drugs.py              # Script to handle controlled drugs
+├── d.html                        # HTML file for controlled drugs
+├── d.pdf                         # PDF file for controlled drugs
+├── doctor_data.csv               # CSV file containing doctor-related data
+├── drug.json                     # JSON file for drug data
+├── eye_patient_info.csv          # CSV file with patient details for eye-related ailments
+├── getting_prescription.py       # Script for processing prescription data
+├── loc.py                        # Script for finding nearest pharmacies
+├── pharmacy_drugs.json           # JSON file containing pharmacy drug details
+├── README.md                     # Project documentation
+├── requirements.txt              # File listing project dependencies
+├── scrape.py                     # Script for scraping data (e.g., from HTML)
+├── updated_patients.json         # JSON file containing updated patient details
+├── output.py                     # Generates the JSON for the different team
 ```
 ## Usage Instructions
 Prepare Input Data: Ensure the diagnosis team’s CSV file contains patient details, prescriptions, and dosages. Store the CSV file in the data/ folder.
@@ -42,15 +50,17 @@ If any prescription requires substitution or dosage validation, a notification w
 A billing dictionary with itemized drug costs and balance amounts will be prepared for the insurance team.
 ## Dependencies
 Python 3.x
-Pandas (for CSV file handling)
+CSV (for CSV file handling)
 JSON (for loading medication and dosage information)
+Google Places API (to locate pharmacies more accurately)
 Future Enhancements
 Expand Ailment and Medication Range: Include additional ailments and medications.
 Enhanced Billing Integration: Provide a dynamic billing system with detailed insurance handling.
-Pharmacy Locator API: Integrate with external APIs to locate pharmacies more accurately.
 ## Contributors
 This project was developed as part of a school assignment. We are a team of beginner developers working to understand basic principles of virtual health systems, CSV processing, and Python programming.
 
 ## License
 
-This Markdown structure gives a clear and organized overview for your GitHub repository. Let me know if there are any other details you'd like to add!
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
