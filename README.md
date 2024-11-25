@@ -40,6 +40,7 @@ CS-120-PHARMACY/
 ├── requirements.txt              # File listing project dependencies
 ├── scrape.py                     # Script for scraping data (e.g., from HTML)
 ├── updated_patients.json         # JSON file containing updated patient details
+├── output.py                     # Generates the JSON for the different team
 ```
 ## Usage Instructions
 Prepare Input Data: Ensure the diagnosis team’s CSV file contains patient details, prescriptions, and dosages. Store the CSV file in the data/ folder.
