@@ -53,4 +53,6 @@ This project was developed as part of a school assignment. We are a team of begi
 
 ## License
 
-This Markdown structure gives a clear and organized overview for your GitHub repository. Let me know if there are any other details you'd like to add!
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
