@@ -1,9 +1,16 @@
 {
     "P12345": {
-        "Diagnosis": "Glaucoma",
+        "Diagnosis": "Red-eye",
+        "ICD_code": "0987879",
+        "Drug": "Eye lubricant drops",
+        "Dosage": "1-2 drops in the affected eye(s) as needed",
+        "Frequency": "Nighttime"
+    },
+    "P12346": {
+        "Diagnosis": "Myopia",
         "ICD_code": "65146464",
-        "Drug": null,
-        "Dosage": null,
+        "Drug": "Dual-focus contact lenses",
+        "Dosage": "As prescribed by an optometrist",
         "Frequency": "Morning and Evening"
     }
 }
