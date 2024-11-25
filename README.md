@@ -45,19 +45,20 @@ CS-120-PHARMACY/
 ├── client_team_data.json         # The client team output
 ```
 ## Usage Instructions
-Prepare Input Data: Ensure the diagnosis team’s CSV file contains patient details, prescriptions, and dosages. Store the CSV file in the data/ folder.
-Run the Pharmacy Module: Execute pharmacy_module.py to process the CSV file.
- Output:
-If any prescription requires substitution or dosage validation, a notification will be generated.
+**Prepare Input Data**: Ensure the diagnosis team’s CSV file contains patient details, prescriptions, and dosages.<br>
+Store the CSV file in the data/ folder.<br>
+**Run the Pharmacy Module**: Execute pharmacy_module.py to process the CSV file.<br>
+**Output**:<br>
+If any prescription requires substitution or dosage validation, a notification will be generated.<br>
 A billing dictionary with itemized drug costs and balance amounts will be prepared for the insurance team.
 ## Dependencies
-Python 3.x
-CSV (for CSV file handling)
-JSON (for loading medication and dosage information)
-Google Places API (to locate pharmacies more accurately)
-Future Enhancements
-Expand Ailment and Medication Range: Include additional ailments and medications.
-Enhanced Billing Integration: Provide a dynamic billing system with detailed insurance handling.
+Python 3.10 <br>
+CSV (for CSV file handling) <br>
+JSON (for loading medication and dosage information) <br>
+Google Places API (to locate pharmacies more accurately) <br> <br>
+**Future Enhancements** <br>
+Expand Ailment and Medication Range: Include additional ailments and medications.<br>
+Enhanced Billing Integration: Provide a dynamic billing system with detailed insurance handling. <br>
 ## Contributors
 This project was developed as part of a school assignment. We are a team of beginner developers working to understand basic principles of virtual health systems, CSV processing, and Python programming.
 
