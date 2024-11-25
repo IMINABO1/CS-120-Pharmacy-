@@ -4,13 +4,23 @@
         "ICD_code": "0987879",
         "Drug": "Eye lubricant drops",
         "Dosage": "1-2 drops in the affected eye(s) as needed",
-        "Frequency": "Nighttime"
+        "Frequency": "Nighttime",
+        "Cost": 10.99
     },
     "P12346": {
         "Diagnosis": "Myopia",
         "ICD_code": "65146464",
         "Drug": "Dual-focus contact lenses",
         "Dosage": "As prescribed by an optometrist",
-        "Frequency": "Morning and Evening"
+        "Frequency": "Morning and Evening",
+        "Cost": 35.0
+    },
+    "P12347": {
+        "Diagnosis": "Long-Sightedness",
+        "ICD_code": "63146467",
+        "Drug": "Vuity (pilocarpine hydrochloride)",
+        "Dosage": "1 drop in each eye once daily",
+        "Frequency": "Morning and Evening",
+        "Cost": 45.0
     }
 }

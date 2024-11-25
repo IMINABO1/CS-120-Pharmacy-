@@ -1,0 +1,14 @@
+{
+    "P12345": {
+        "Diagnosis": "Red-eye",
+        "Cost": 10.99
+    },
+    "P12346": {
+        "Diagnosis": "Myopia",
+        "Cost": 35.0
+    },
+    "P12347": {
+        "Diagnosis": "Long-Sightedness",
+        "Cost": 45.0
+    }
+}
