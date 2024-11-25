@@ -1,7 +1,8 @@
 rm .gitignore
+rm .env
 touch .gitignore
 pharm/
 .vscode/
 d.pdf
-.env
+
 __pycache__/
